@@ -3,9 +3,9 @@
 #include <chrono>
 
 auto watch = true;
-auto mouseX = 1000,
-     mouseY = 300;
-
+auto mouseX = 1000, // these are coordinites that the code loops at to find the green pixels.
+     mouseY = 300;  // to find them relative to your computer take a print screen of all your monitors and put it into paint
+                    // once put into paint you can see where the green pixels will appear and copy the coordinites down to these variables
 void watch_screen()
 {
   while (watch)
