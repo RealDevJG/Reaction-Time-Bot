@@ -1,7 +1,7 @@
 # Reaction-Time-Bot
 A bot that automatically clicks the green pixels on the https://humanbenchmark.com/tests/reactiontime website.  
 
-### This only works on windows becuase I used the windows API!
+### This only works on windows because I used the windows API!
 ### I also just realised that I use a chrome extension called DarkReader which means that my rgb values for the green pixel will not work for any web browser without the exension. To fix this: throw an image of the reaction time test turning green into an image editor such as paint and select the pixels' rgb values (Obviously of the green part). Put these values into the code on line 16;
   - *if (colour == RGB(R value here, G value here, B value here))*.  
 
